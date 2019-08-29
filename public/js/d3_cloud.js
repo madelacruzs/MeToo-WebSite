@@ -88,7 +88,7 @@ var myWordCloud = wordCloud("body");
 var words = [];
 
 // Get the data
-d3.csv("/tweet_text.csv", function(error, data) {
+d3.csv("https://sfu-metoo.herokuapp.com/tweet_text.csv", function(error, data) {
   if (error) throw error;
   console.log(data);
   // format the data
