@@ -2,15 +2,15 @@ var year = "2017";
 var year_dict = [
   {
     year: 2017,
-    fileName: "https://sfu-metoo.herokuapp.com/bubble_users_2017.csv"
+    fileName: "/bubble_users_2017.csv"
   },
   {
     year: 2018,
-    fileName: "https://sfu-metoo.herokuapp.com/bubble_users_2018.csv"
+    fileName: "/bubble_users_2018.csv"
   },
   {
     year: 2019,
-    fileName: "https://sfu-metoo.herokuapp.com/bubble_users_2019.csv"
+    fileName: "/bubble_users_2019.csv"
   }
 ];
 // set the dimensions and margins of the graph
@@ -33,7 +33,7 @@ function init() {
   }
   // append the svg object to the body of the page
   svg = d3
-    .select("#my_dataviz")
+    .selectAll("#my_dataviz")
     .append("svg")
     .attr("width", width)
     .attr("height", height + margin.top + margin.bottom)
