@@ -1,8 +1,17 @@
 var year = "2017";
 var year_dict = [
-  { year: 2017, fileName: "/bubble_users_2017.csv" },
-  { year: 2018, fileName: "/bubble_users_2018.csv" },
-  { year: 2019, fileName: "/bubble_users_2019.csv" }
+  {
+    year: 2017,
+    fileName: "https://sfu-metoo.herokuapp.com/bubble_users_2017.csv"
+  },
+  {
+    year: 2018,
+    fileName: "https://sfu-metoo.herokuapp.com/bubble_users_2018.csv"
+  },
+  {
+    year: 2019,
+    fileName: "https://sfu-metoo.herokuapp.com/bubble_users_2019.csv"
+  }
 ];
 // set the dimensions and margins of the graph
 var margin = { top: 10, right: 0, bottom: 30, left: 50 },
